@@ -1,0 +1,22 @@
+{
+  "name": "devfaaiz-cli-number-game",
+  "version": "1.0.1",
+  "description": "This is a simple cli-based number guessing game made through inquirer.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FaaizQamar",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
